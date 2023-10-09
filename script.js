@@ -1,13 +1,17 @@
 
 // data
-const numeros = [ 2,5,3,4,9,5,67,54 ];
+const conjunto = [24,15,4,9,3,7,42 ];
 
 // map() lo que hace es recorrer c/u de los elementos del array
 
 // multipliar cada elmento del array por 10
-const arrayModificado = numeros.map(funcionMultiplicar)
+var arrayModificado = multiplicar(conjunto)
 
-function funcionMultiplicar(numero){
-  return numero * 10;
-}
-document.querySelector('#header').innerHTML = arrayModificado
+function multiplicar(arr){
+  var total=arr.reduce(function(accumulator, currentElement){
+  return currentElement * 10;
+  })
+  return total;
+ } 
+console.log(arrayModificado);
+//document.getElementById().innerHTML = arrayModificado
