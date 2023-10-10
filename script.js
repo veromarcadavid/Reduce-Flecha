@@ -11,6 +11,7 @@ function multiplicar(arr){
  } 
 console.log(mult);
 document.write(mult);
+document.getElementById('output').innerHTML = mult;
 
 //ACTIVIDAD FUNCION FLECHA
 conjunto.forEach(()=> console.log("Elemento"));
