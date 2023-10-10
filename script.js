@@ -1,10 +1,6 @@
+// ACITIVIDAD REDUCE
+const conjunto = [24,15,4,9,3,7,42];
 
-// data
-const conjunto = [24,15,4,9,3,7,42 ];
-
-// map() lo que hace es recorrer c/u de los elementos del array
-
-// multipliar cada elmento del array por 10
 var mult = multiplicar(conjunto)
 
 function multiplicar(arr){
@@ -14,4 +10,8 @@ function multiplicar(arr){
   return total;
  } 
 console.log(mult);
-document.write(mult)
+document.write(mult);
+
+//ACTIVIDAD FUNCION FLECHA
+console.log("<br>");
+conjunto.forEach(()=> console.log("Elemento"));
