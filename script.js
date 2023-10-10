@@ -10,7 +10,6 @@ function multiplicar(arr){
   return total;
  } 
 console.log(mult);
-document.write(mult);
 document.getElementById('output').innerHTML = "El resultado es:" + mult;
 
 //ACTIVIDAD FUNCION FLECHA
