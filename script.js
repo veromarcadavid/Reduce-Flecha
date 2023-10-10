@@ -13,5 +13,5 @@ console.log(mult);
 document.write(mult);
 
 //ACTIVIDAD FUNCION FLECHA
-console.log("<br>");
+//console.log(<br>);
 conjunto.forEach(()=> console.log("Elemento"));
