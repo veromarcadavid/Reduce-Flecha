@@ -1,5 +1,5 @@
 // ACITIVIDAD REDUCE
-const conjunto = [24,15,4,9,3,7,42];
+const conjunto = [24,15,4,9,3,7,4,2];
 
 var mult = multiplicar(conjunto)
 
